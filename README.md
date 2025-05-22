@@ -57,7 +57,7 @@ Welcome to the Sixth Advanced Programming (AP) Assignment. This project is divid
 
 ```java  
 import java.util.concurrent.atomic.AtomicInteger;
-public class AtomicDemo {
+public class AtomicDemo { 
   private static AtomicInteger atomicCounter = new AtomicInteger(0);
   private static int normalCounter = 0;
   public static void main(String[] args) throws InterruptedException {
